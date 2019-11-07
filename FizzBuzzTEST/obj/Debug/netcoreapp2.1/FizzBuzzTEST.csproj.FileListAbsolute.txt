@@ -1,0 +1,17 @@
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\bin\Debug\netcoreapp2.1\FizzBuzzTEST.deps.json
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\bin\Debug\netcoreapp2.1\FizzBuzzTEST.runtimeconfig.json
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\bin\Debug\netcoreapp2.1\FizzBuzzTEST.runtimeconfig.dev.json
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\bin\Debug\netcoreapp2.1\FizzBuzzTEST.dll
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\bin\Debug\netcoreapp2.1\FizzBuzzTEST.pdb
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\bin\Debug\netcoreapp2.1\Fizz-Buzz.dll
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\bin\Debug\netcoreapp2.1\Fizz-Buzz.pdb
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\obj\Debug\netcoreapp2.1\FizzBuzzTEST.csprojAssemblyReference.cache
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\obj\Debug\netcoreapp2.1\FizzBuzzTEST.csproj.CoreCompileInputs.cache
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\obj\Debug\netcoreapp2.1\FizzBuzzTEST.AssemblyInfoInputs.cache
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\obj\Debug\netcoreapp2.1\FizzBuzzTEST.AssemblyInfo.cs
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\obj\Debug\netcoreapp2.1\FizzBuzzTEST.csproj.CopyComplete
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\obj\Debug\netcoreapp2.1\FizzBuzzTEST.dll
+C:\Projects\Fizz-Buzz\FizzBuzzTEST\obj\Debug\netcoreapp2.1\FizzBuzzTEST.pdb
