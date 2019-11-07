@@ -8,6 +8,7 @@ namespace Fizz_Buzz.HelperLibrary
     {
         public StringBuilder Welcome()
         {
+            Console.Clear();
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("#############################################################");
             sb.AppendLine("#              Hi User, Welcome to FIZZ & BUZZ              #");
@@ -21,8 +22,16 @@ namespace Fizz_Buzz.HelperLibrary
             return sb;
         }
 
+        public StringBuilder PressKey()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Press any key to start a list/Multi Array Method");
+            return sb;
+        }
+
         public StringBuilder SecondWelcome()
         {
+            Console.Clear();
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("Second Method is about to commence, This is a list Method could ");
             sb.AppendLine("work for a multi array. But lets keep it simple and do a list.");
@@ -30,6 +39,14 @@ namespace Fizz_Buzz.HelperLibrary
             sb.AppendLine("more if needed or wanted too. Pass the list into the CountUpList");
             sb.AppendLine("class along with Max Count Value and the results will be the same \n");
             sb.AppendLine("Please enter a number now: ");
+            return sb;
+        }
+
+        public StringBuilder InvalidInput(int _Attempts)
+        {
+            Console.Clear();
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("Invalid input, Integer number needed. this is your " + _Attempts + " try, good luck...\n");
             return sb;
         }
 

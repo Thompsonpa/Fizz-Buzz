@@ -6,4 +6,8 @@
     <RootNamespace>Fizz_Buzz</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Shouldly" Version="3.0.2" />
+  </ItemGroup>
+
 </Project>
