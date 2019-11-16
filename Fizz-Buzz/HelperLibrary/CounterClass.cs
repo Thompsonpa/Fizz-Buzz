@@ -33,50 +33,39 @@ namespace Fizz_Buzz.HelperLibrary
             string line = "";
             if (ItemList == null)
             {
-                if (currentValue % 3 == 0 && currentValue % 5 == 0)
-                {
-                    line += "Fizz&Buzz";
-                }
-                else if (currentValue % 3 == 0)
+                if (currentValue % 3 == 0)
                 {
                     line += "Fizz";
                 }
                 else if (currentValue % 5 == 0)
                 {
                     line += "Buzz";
+
                 }
                 else
                 {
-                    line += currentValue.ToString();
+                    line = currentValue.ToString();
                 }
+                line += "\n"; // add end of line for console app
             }
             else
             {
-                foreach (var item in ItemList)
+                bool Devisable = false;
+                foreach (var item in ItemList) // loop through list values and determine if value is Devisable by item list values
                 {
                     if (currentValue % item.value == 0)
                     {
-                        if (line.Contains("Fizz"))
-                        {
-                            line += "&" + item.text;
-                        }
-                        else
-                        {
-                            line += item.text;
-                        }
+                        Devisable = true; // set counter 
+                        line += item.text;
                     }
                 }
-                if (line.Contains("Fizz") == false && line.Contains("Buzz") == false && line.Contains("Fizz&Buzz") == false)
+                if (Devisable == false) // Check counter
                 {
-                    line = currentValue.ToString();
+                    line = currentValue.ToString(); // Set default number value
                 }
+                line += "\n"; // add end of line for console app
             }
-                
-            
             return line;
         }
-
-        
-
     }
 }
